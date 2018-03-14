@@ -16,5 +16,5 @@ body * {
 
 #root {
   height: 100%;
-  background: conic-gradient(from -39deg, #ebb028 50%, #37b58f 0 116%);
+  background: linear-gradient(227deg, #ebb028 50%, #37b58f 50%);
 }
