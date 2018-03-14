@@ -51,7 +51,7 @@ class Uploader extends Component {
       requests: [
         {
           image: { content: fileUrl.replace(/data:image.*base64,/, '') },
-          features: [{ type: 'LABEL_DETECTION' }],
+          features: [{ type: 'LABEL_DETECTION', maxResults: 20 }],
         },
       ],
     };
