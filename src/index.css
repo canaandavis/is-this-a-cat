@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+  background: conic-gradient(from -39deg, #ebb028 50%, #37b58f 0 116%);
+}

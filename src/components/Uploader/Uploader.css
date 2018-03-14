@@ -1,0 +1,57 @@
+.drop-zone {
+  min-height: 150px;
+  border: 3px dashed #f24c4e;
+  background: #23232321;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.drop-zone p {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.upload-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+  border: 3px dashed #f24c4e;
+  margin: 0 auto;
+}
+
+.upload-preview img {
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.upload-preview_overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #63636359;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-preview_overlay img {
+  height: 50px;
+  animation: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
