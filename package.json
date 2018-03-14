@@ -2,16 +2,22 @@
   "name": "cat-or-not",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://canaandavis.github.io/is-this-a-cat",
   "dependencies": {
+    "add": "^2.0.6",
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-dropzone": "^4.2.9",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "yarn": "^1.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
